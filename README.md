@@ -12,8 +12,11 @@
 client와 DB를 연동하는 과정을 학습하기위해 진행한 프로젝트로 소규모로 제작되었습니다.
 </p>
 
+<br>
 ## 개발 환경
-- 사용 언어
+✔ 사용 언어
   <p>HTML, CSS, JavaScript, PHP</p>
-- DB
+✔ DB
   <p>MySQL</p>
+
+
