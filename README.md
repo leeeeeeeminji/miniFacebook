@@ -14,7 +14,7 @@ client와 DB를 연동하는 과정을 학습하기위해 진행한 프로젝트
 
 <br>
 
-## 🟠 개발 환경
+## 개발 환경
 ✔ 사용 언어
   <p>HTML, CSS, JavaScript, PHP</p>
 ✔ DB
