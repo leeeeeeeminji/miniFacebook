@@ -1,4 +1,4 @@
-# miniFacebook
+# miniFacebook 
 ![home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/f97ad8d6-0421-4bdb-8c4a-57697eadce1d)
 
 <br>
@@ -20,12 +20,24 @@ client와 DB를 연동하는 과정을 학습하기위해 진행한 소규모 �
 <br>
 
 ## ⚙ 개발 환경
-### ✔ 사용 언어
-HTML, CSS, JavaScript, PHP
-### ✔ DB
-  <p>MySQL</p>
+#### ✔ 사용 언어
+<div>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=JavaScript&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=PHP&logoColor=white"/>
+</div>
+
+#### ✔ DB
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/>
+
+#### ✔ 사용 툴
+<div>
+  <img src="https://img.shields.io/badge/Notepad++-90E59A?style=flat&logo=Notepad++&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache-D22128?style=flat&logo=Apache&logoColor=white"/>
+</div>
 
 <br>
 
-## 화면 구성
+## 🎞 화면 구성
 
