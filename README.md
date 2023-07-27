@@ -40,4 +40,17 @@ client와 DB를 연동하는 과정을 학습하기위해 진행한 소규모 �
 <br>
 
 ## 🎞 화면 구성
+![비회원 home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/199c192b-7eef-4dfc-878d-1ea6492ef3fc)
+![login](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/cb8147af-06d0-45bd-be49-a0841309ec8b)
+![회원가입](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/99ed8e72-6966-4
+![방명록](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/56e818d9-c9ac-40
 
+![회원 home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/46cd311d-1aff-41a0-8ea8-1cdc71b86195)
+![회원정보](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/7835e1f4-6c57-4a49-b0b0-96e7d6ba4614)
+![검색](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/faf0cc46-2b18-41b5-a919-9afb812e5fad)
+![검색 결과](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/d5d89244-babc-4409-8e60-54e2e0631b0f)
+f9-bb42-43280def8440)
+![검색2](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/f6b3bd35-2ebb-45a1-aed1-ab6d5fbc5687)
+![검색2 결과](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/9fea0100-3e61-4cb8-8eec-1ec269d8d41e)
+![회원 탈퇴](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/345f38ed-659e-436d-bded-aeee084eea1e)
+![회원정보수정](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/5072d134-8f07-4f0f-a166-b9f345df58bf)
