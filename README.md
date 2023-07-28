@@ -107,7 +107,8 @@
   </p>
 ![회원정보](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/7835e1f4-6c57-4a49-b0b0-96e7d6ba4614)
 
-- #### 검색 (/fb_search_db.php)
+
+- #### 검색 (/fb_search_db.php, fb_search_process_db.php)
   <p>
     사이트에 가입한 회원을 검색할 수 있는 기능입니다.<br>
     사용자가 검색어를 입력하고 돋보기 버튼을 누르면 fb_search_process_db.php 가 실행됩니다. <br>
@@ -116,11 +117,30 @@
     나이는 db의 birthdate 컬럼에 있는 데이터와 현재 날짜 데이터로 계산하여 출력하였습니다.<br>
     검색을 원하는 경우, 검색 결과 페이지에서 다시 검색하실 수 있습니다.
   </p>
-![검색](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/faf0cc46-2b18-41b5-a919-9afb812e5fad)
-![검색 결과](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/d5d89244-babc-4409-8e60-54e2e0631b0f)
+<img width="1754" alt="검색" src="https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/99dd91f7-f2cf-4866-ae69-e43af4f3b622">
 
 
-![검색2](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/f6b3bd35-2ebb-45a1-aed1-ab6d5fbc5687)
-![검색2 결과](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/9fea0100-3e61-4cb8-8eec-1ec269d8d41e)
+- #### 검색 ver.2 (/fb_search_v2_db.php, fb_search_process_v2_db.php)
+  <p>
+    사이트에 가입한 회원을 검색할 수 있는 기능입니다.<br>
+    이 페이지에서는 검색 방법을 설정할 수 있습니다. 이름, 이메일 주소, 전화번호로 검색이 가능합니다. <br>
+    검색 방법을 설정하지 않을 경우, 검색 방법을 선택해달라는 메시지가 띄워집니다.<br>
+    사용자가 검색어를 입력하고 돋보기 버튼을 누르면 fb_search_process_v2_db.php 가 실행됩니다. <br>
+    php 파일에서는 사용자가 선택한 검색 방법과 검색어로 select 문을 실행하고 <br>
+    쿼리 실행 결과로 나온 회원 정보를 while 문을 돌려 출력합니다. <br>
+    검색을 원하는 경우, 검색 결과 페이지에서 다시 검색하실 수 있습니다.
+  </p>
+<img width="1764" alt="검색1" src="https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/b7886130-06b3-4d85-9670-3c253f52807e">
+
+
+- #### 회원 탈퇴 (/fb_delete_db.php)
+  <p>
+    회원 기능 중, 회원 탈퇴 기능입니다. 
+  </p>
 ![회원 탈퇴](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/345f38ed-659e-436d-bded-aeee084eea1e)
+
+- #### 회원 정보 수정 (/fb_delete_db.php)
+  <p>
+    회원 기능 중, 회원 정보 수정 기능입니다. 
+  </p>
 ![회원정보수정](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/5072d134-8f07-4f0f-a166-b9f345df58bf)
