@@ -45,10 +45,11 @@
 ## 🎞 화면 구성
 ### 👩 비회원 
 - #### 비회원전용 페이지 HOME (/fb_guest_home_db.php)
-<p>
-  로그인을 하지 않은 비회원 페이지의 HOME 화면입니다. 회원 페이지에서 로그아웃을 하는 경우, 이 페이지로 돌아옵니다. <br>
-  비회원 페이지에 중복되는 header와 footer는 각각 별도의 inc 파일로 분리하여 해당 영역에 php로 include 하였습니다. 
-</p>
+  <p>
+    로그인을 하지 않은 비회원 페이지의 HOME 화면입니다. <br>
+    회원 페이지에서 로그아웃을 하는 경우, 이 페이지로 돌아옵니다. <br>
+    비회원 페이지에 중복되는 header와 footer는 각각 별도의 inc 파일로 분리하여 해당 영역에 php로 include 하였습니다. 
+  </p>
 
 ![비회원 home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/199c192b-7eef-4dfc-878d-1ea6492ef3fc)
 
