@@ -4,12 +4,15 @@
 <br>
 
 ##  📘 프로그램 소개
-<p>"minifacebook"은 기존 페이스북의 일부 기능을 참고하여 제작한 mini facebook 사이트입니다.</p>
+<p>
+"minifacebook"은 기존 페이스북의 일부 기능을 참고하여 제작한 mini facebook 사이트입니다.<br>
+대학교 전공 강의에서 client와 DB를 연동하는 과정을 학습하기위해 진행한 소규모 프로젝트입니다.
+</p>
 <p>
 페이지는 회원 전용 페이지와 비회원 전용 페이지로 나눠집니다.<br>
 비회원의 경우 방명록, 로그인, 회원가입, 방명록 총 네 가지 메뉴만 이용 가능하고 <br>
 회원의 경우 회원 조회, 정보 수정, 탈퇴 등의 메뉴를 이용할 수 있습니다. <br>
-client와 DB를 연동하는 과정을 학습하기위해 진행한 소규모 프로젝트입니다.
+기존 페이스북 기능의 뉴스피드, 타임라인을 제외한 마이페이지 기능을 주기능으로 제작하였습니다.<br>
 </p>
 
 <br>
@@ -41,7 +44,9 @@ client와 DB를 연동하는 과정을 학습하기위해 진행한 소규모 �
 
 ## 🎞 화면 구성
 ### 👩 비회원 
+- #### 비회원전용 페이지 HOME (/fb_guest_home_db.php)
 ![비회원 home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/199c192b-7eef-4dfc-878d-1ea6492ef3fc)
+로그인을 하지 않은 비회원 페이지의 HOME 화면입니다. 
 ![login](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/cb8147af-06d0-45bd-be49-a0841309ec8b)
 ![회원가입](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/5779ea28-f520-4836-94c5-80d0f64ed999)
 ![방명록](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/c27bacdc-742f-4182-98c5-baa3b8e92837)
