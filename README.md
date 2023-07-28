@@ -38,6 +38,8 @@
 <div>
   <img src="https://img.shields.io/badge/Notepad++-90E59A?style=flat&logo=Notepad++&logoColor=white"/>
   <img src="https://img.shields.io/badge/Apache-D22128?style=flat&logo=Apache&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQLyog-2A5D82?style=flat&logo=SQLyog&logoColor=white"/>
+  
 </div>
 
 <br>
@@ -54,7 +56,7 @@
 
 ![비회원 home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/199c192b-7eef-4dfc-878d-1ea6492ef3fc)
 
-- #### 로그인
+- #### 로그인 (/fb_login_db.php)
   <p>
     비회원 전용 페이지의 로그인 화면입니다.<br>
     취소 버튼 옆 동그라미를 누르면 이메일, 비밀번호의 형식을 확인할 수 있습니다. <br>
@@ -66,7 +68,7 @@
   </p>
 ![login](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/cb8147af-06d0-45bd-be49-a0841309ec8b)
 
-- #### 회원가입
+- #### 회원가입 (/fb_register_db.php)
   <p>
     비회원 전용 페이지의 회원가입 화면입니다. <br>
     필수 입력 항목에 해당하는 입력란을 입력하지 않고 등록 버튼을 누르면 입력란을 작성하라는 메시지가 띄워집니다.<br>
@@ -76,8 +78,8 @@
     insert가 성공적으로 완료되면, "정상적으로 회원 가입이 완료되었습니다." 라는 메시지가 띄워집니다. 
   </p>
 ![회원가입](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/5779ea28-f520-4836-94c5-80d0f64ed999)
-
-- #### 방명록
+<br>
+- #### 방명록 (/fb_guestbook_db.php)
   <p>
     방명록 페이지입니다. 방명록 기능은 회원, 비회원 상관없이 모두 이용 가능합니다. <br>
     로그인이 되어있는 경우 회원용 header를 include 하고 그렇지 않은 경우는 비회원용 header를 include 하도록 하였습니다. <br>
@@ -88,10 +90,35 @@
 
 
 ### 👪 회원
+- #### 회원 전용 페이지 HOME (/fb_home_db.php)
+  <p>
+    로그인에 성공한 회원들이 볼 수 있는 회원 페이지의 HOME 화면입니다. <br>
+    로그인을 하지 않고 url로 회원 페이지에 접근하려고 하는 경우, 로그인 페이지로 이동합니다 <br>
+    로그인이 확인되면 세션에 넣어둔 user_name을 가져와 화면에 출력해줍니다. <br>
+    비회원 페이지와 마찬가지로 회원 페이지에 중복되는 header와 footer는 각각 별도의 inc 파일로 분리하여 <br>
+    해당 영역에 php로 include 하였습니다.
+  </p>
 ![회원 home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/46cd311d-1aff-41a0-8ea8-1cdc71b86195)
+
+- #### 모든 회원 보기 (/fb_view_db.php)
+  <p>
+    회원 전용 기능 중, 모든 회원 보기 기능입니다.<br>
+    모든 회원 보기 기능은 minifacebook 사이트에 가입한 모든 회원들의 정보가 표시됩니다.
+  </p>
 ![회원정보](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/7835e1f4-6c57-4a49-b0b0-96e7d6ba4614)
+
+- #### 검색 (/fb_search_db.php)
+  <p>
+    사이트에 가입한 회원을 검색할 수 있는 기능입니다.<br>
+    사용자가 검색어를 입력하고 돋보기 버튼을 누르면 fb_search_process_db.php 가 실행됩니다. <br>
+    php 파일에서는 사용자가 입력한 검색어로 select 문을 실행합니다 <br>
+    쿼리 실행 결과로 나온 회원 정보를 while 문을 돌려 출력합니다. <br>
+    나이는 db의 birthdate 컬럼에 있는 데이터와 현재 날짜 데이터로 계산하여 출력하였습니다.<br>
+    검색을 원하는 경우, 검색 결과 페이지에서 다시 검색하실 수 있습니다.
+  </p>
 ![검색](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/faf0cc46-2b18-41b5-a919-9afb812e5fad)
 ![검색 결과](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/d5d89244-babc-4409-8e60-54e2e0631b0f)
+
 
 ![검색2](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/f6b3bd35-2ebb-45a1-aed1-ab6d5fbc5687)
 ![검색2 결과](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/9fea0100-3e61-4cb8-8eec-1ec269d8d41e)
