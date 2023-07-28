@@ -48,12 +48,22 @@
   <p>
     로그인을 하지 않은 비회원 페이지의 HOME 화면입니다. <br>
     회원 페이지에서 로그아웃을 하는 경우, 이 페이지로 돌아옵니다. <br>
-    비회원 페이지에 중복되는 header와 footer는 각각 별도의 inc 파일로 분리하여 해당 영역에 php로 include 하였습니다. 
+    비회원 페이지에 중복되는 header와 footer는 각각 별도의 inc 파일로 분리하여 <br>
+    해당 영역에 php로 include 하였습니다. 
   </p>
 
 ![비회원 home](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/199c192b-7eef-4dfc-878d-1ea6492ef3fc)
 
-
+- #### 로그인
+  <p>
+    비회원 전용 페이지의 로그인 화면입니다.<br>
+    취소 버튼 옆 동그라미를 누르면 이메일, 비밀번호의 형식을 확인할 수 있습니다. <br>
+    사용자가 이메일, 비밀번호를 입력하고 로그인을 시도하면 fb_login_process_db.php 를 실행하게 됩니다. <br>
+    로그인 프로세스를 처리하는 php 에서는 데이터베이스와 연결한 뒤, 사용자의 입력값으로 쿼리를 실행하고 
+    회원으로 확인되는 경우, 세션 아이디를 부여하고 세션 정보를 저정한 뒤, 회원용 홈페이지로 이동합니다.
+    회원으로 확인되지 않은 경우에는 "등록되지 않은 회원정보입니다. 다시 입력해주세요"라는 메시지가 띄워집니다.
+    
+  </p>
 ![login](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/cb8147af-06d0-45bd-be49-a0841309ec8b)
 ![회원가입](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/5779ea28-f520-4836-94c5-80d0f64ed999)
 ![방명록](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/c27bacdc-742f-4182-98c5-baa3b8e92837)
