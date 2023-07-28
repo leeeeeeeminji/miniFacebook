@@ -135,12 +135,19 @@
 
 - #### 회원 탈퇴 (/fb_delete_db.php)
   <p>
-    회원 기능 중, 회원 탈퇴 기능입니다. 
+    회원 기능 중, 회원 탈퇴 기능입니다. <br>
+    이메일과 비밀번호를 입력하면 탈퇴 절차가 진행됩니다. <br>
+    삭제가 성공적으로 완료되면, 삭제된 회원의 정보를 띄워줍니다. 
   </p>
 ![회원 탈퇴](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/345f38ed-659e-436d-bded-aeee084eea1e)
 
-- #### 회원 정보 수정 (/fb_delete_db.php)
+- #### 회원 정보 수정 (/fb_update_db.php, fb_update_process_db.php, fb_update_process_complete_db.php)
   <p>
-    회원 기능 중, 회원 정보 수정 기능입니다. 
+    회원 기능 중, 회원 정보 수정 기능입니다. <br>
+    이메일과 비밀번호를 입력하면 회원 정보 수정이 진행됩니다. <br>
+    입력한 이메일과 비밀번호로 select 쿼리를 실행하여 해당하는 회원의 정보를 불러옵니다. <br>
+    불러온 회원의 정보를 입력란의 기본 value 값으로 설정합니다. <br>
+    회원이 모든 입력란의 수정을 마친 후, 수정 버튼을 누르면 fb_update_process_complete_db.php가 실행됩니다. <br>
+    사용자가 입력한 정보로 update를 실행하여 정보 수정 성공 유무를 알려줍니다. 
   </p>
 ![회원정보수정](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/5072d134-8f07-4f0f-a166-b9f345df58bf)
