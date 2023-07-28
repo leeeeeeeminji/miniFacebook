@@ -62,10 +62,16 @@
     로그인 프로세스를 처리하는 php 에서는 데이터베이스와 연결한 뒤, 사용자의 입력값으로 쿼리를 실행하고 <br>
     회원으로 확인되는 경우, 세션 아이디를 부여하고 세션 정보를 저정한 뒤, 회원용 홈페이지로 이동합니다. <br>
     회원으로 확인되지 않은 경우에는 "등록되지 않은 회원정보입니다. 다시 입력해주세요"라는 메시지가 띄워집니다.
-    
   </p>
 ![login](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/cb8147af-06d0-45bd-be49-a0841309ec8b)
+
+- #### 회원가입
+  <p>
+    비회원 전용 페이지의 회원가입 화면입니다. <br>
+    필수 입력 항목에 해당하는 입력란을 입력하지 않고 등록 버튼을 누르면 입력란을 작성하라는 메시지가 띄워집니다.<br>
+  </p>
 ![회원가입](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/5779ea28-f520-4836-94c5-80d0f64ed999)
+  
 ![방명록](https://github.com/leeeeeeeminji/miniFacebook/assets/87288893/c27bacdc-742f-4182-98c5-baa3b8e92837)
 
 
